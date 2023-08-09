@@ -43,6 +43,7 @@ ul {
 }
 
 .top-banner-content {
+    gap: 50px;
     margin: 0 100px;
     display: flex;
     max-height: 250px;
@@ -108,6 +109,25 @@ img {
     flex-shrink: 0;
 }
 
-/* .info-subtext {
-    text-align: center;
-} */
+.content3 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    margin: 0 150px;
+    padding: 100px 0 80px 0;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.author {
+    text-align: right;
+    margin-right: 15px;
+}
