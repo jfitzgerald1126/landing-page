@@ -1,6 +1,6 @@
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: white;
+    background-color: #1F2937;
     height: 100vh;
     margin: 0;
 }
@@ -34,7 +34,7 @@ ul {
 .header {
     display: flex;
     justify-content: space-between;
-    margin: 0 100px;
+    margin: 0 100px 75px 100px;
     padding: 8px 0;
 }
 
@@ -63,6 +63,7 @@ ul {
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 20px;
 }
 
 .signup {   
@@ -72,7 +73,7 @@ ul {
 
 .button {
     background-color: #3882F6;
-    padding: 0px 10px;
+    padding: 5px 15px;
     border-radius: 6px;
 }
 
@@ -95,7 +96,7 @@ img {
 
 .content1 {
     text-align: center;
-
+    background-color: white;
 }
 
 .info-container {
@@ -103,6 +104,7 @@ img {
     flex-wrap: wrap;
     justify-content: center;
     gap: 30px;
+    padding-bottom: 30px;
 }
 
 .info {
@@ -110,7 +112,7 @@ img {
 }
 
 .content3 {
-    margin-top: 30px;
+    /* margin-top: 30px; */
     display: flex;
     justify-content: center;
     background-color: #E5E7EB;
@@ -130,4 +132,20 @@ img {
 .author {
     text-align: right;
     margin-right: 15px;
+}
+
+.content4 {
+    height: 250px;
+    background-color: white;
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    background-color: #1F2937;
+    color: white;
+    /* justify-content: center; */
+    justify-content: center;
+    align-items: center;
+    height: 80px;
 }
